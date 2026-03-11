@@ -44,8 +44,11 @@ These work out of the box with no setup required. Skills 4, 6, 7, and 8 also inc
 
 1. Open the skill folder you want (e.g., `04-press-release/`)
 2. Open `SKILL.md` and copy all the text
-3. In Claude Desktop, go to **Settings → Profile → Custom Instructions** and paste it in
-4. Start a new conversation and use the trigger phrase listed in the skill's README
+3. In Claude Desktop, go to **Customize**
+4. Select **Skills**, then click the **+** button to add a new skill and paste the text in
+5. Start a new conversation and use the trigger phrase listed in the skill's README
+
+> Skills have moved to **Customize**. Head to the Customize page to manage your skills and connectors.
 
 > For personal skills (1–3): also read the skill's README to see what reference files to add.
 

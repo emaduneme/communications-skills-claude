@@ -70,11 +70,14 @@ This is the official installation method. Skills are uploaded as a zipped folder
 2. Zip that folder:
    - **Mac**: Right-click the folder → Compress
    - **Windows**: Right-click the folder → Send to → Compressed (zipped) folder
-3. Open [claude.ai](https://claude.ai) in your browser
-4. Go to **Settings → Capabilities → Skills**
-5. Click **Upload skill** and select the `.zip` file you just made
-6. The skill will appear in your skills list — toggle it on
-7. Start a new conversation — Claude will now use the skill automatically when relevant
+3. Open Claude Desktop
+4. Go to **Customize**
+5. Select **Skills**, then click the **+** button to add a new skill
+6. Upload the `.zip` file you just made
+7. The skill will appear in your skills list — toggle it on
+8. Start a new conversation — Claude will now use the skill automatically when relevant
+
+> Skills have moved to **Customize**. Head to the Customize page to manage your skills and connectors.
 
 > You can upload all 8 skills individually and toggle them on or off as needed.
 
@@ -147,7 +150,7 @@ Paste the content of the reference file directly into the chat when you start. F
 ## Troubleshooting
 
 **The skill isn't loading automatically.**
-Check that the skill is toggled on in Settings → Capabilities → Skills. Start a fresh conversation after enabling it — skills don't activate mid-conversation.
+Check that the skill is toggled on in **Customize → Skills**. Start a fresh conversation after enabling it — skills don't activate mid-conversation.
 
 **It doesn't sound like me.**
 Add your voice samples. For Email Drafting, add `references/voice-samples.md` with 3–4 emails you've written. For Cover Letter, add 2–3 letters you've sent. Upload the filled-in file to the same skill zip or attach it to your Claude project.
@@ -156,7 +159,7 @@ Add your voice samples. For Email Drafting, add `references/voice-samples.md` wi
 Upload each skill individually and toggle them all on. Claude can use multiple active skills simultaneously.
 
 **I want to edit a skill.**
-Open `SKILL.md` in any text editor, make your changes, re-zip the folder, and re-upload it via Settings → Capabilities → Skills.
+Open `SKILL.md` in any text editor, make your changes, re-zip the folder, and re-upload it via **Customize → Skills**.
 
 **I updated a skill file. Do I need to reinstall?**
 Yes — re-zip the updated folder and upload it again to replace the previous version.
