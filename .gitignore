@@ -1,0 +1,18 @@
+# Archive - redundant/superseded files
+_archive/
+
+# Internal project governance (not for public repo)
+CLAUDE.md
+claude.md
+tasks/
+
+# Local Claude Code settings
+.claude/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Anthropic guide PDF — not redistributable; download from Anthropic documentation
+The-Complete-Guide-to-Building-Skill-for-Claude.pdf
+The-Complete-Guide-to-Building-Skill-for-Claude.txt
