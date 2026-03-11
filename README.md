@@ -1,3 +1,5 @@
+![Communications Skills for Claude](git-image.png)
+
 # Communications Professional Skills for Claude
 
 A collection of 8 Claude skills for communications researchers, PR professionals, journalists, and academic communicators. Each skill is a ready-to-use prompt template that extends Claude with specialized expertise for your communication workflows.
