@@ -42,24 +42,23 @@ These work out of the box with no setup required. Skills 4, 6, 7, and 8 also inc
 
 ### Claude Desktop (no coding required)
 
-1. Open the skill folder you want (e.g., `04-press-release/`)
-2. Open `SKILL.md` and copy all the text
-3. In Claude Desktop, go to **Customize**
-4. Select **Skills**, then click the **+** button to add a new skill and paste the text in
-5. Start a new conversation and use the trigger phrase listed in the skill's README
-
-> Skills have moved to **Customize**. Head to the Customize page to manage your skills and connectors.
+1. Right-click the skill folder you want (e.g., `04-press-release/`) and compress it to a `.zip` file
+   - **Mac**: Right-click → **Compress**
+   - **Windows**: Right-click → **Compress to ZIP file** (Win 11) or **Send to → Compressed folder** (Win 10)
+2. Open Claude Desktop → **Customize → Skills** → click **+** → choose **Upload Skill**
+3. Select the `.zip` file and toggle the skill on
+4. Start a new conversation — the skill activates automatically
 
 > For personal skills (1–3): also read the skill's README to see what reference files to add.
 
-### Claude Code
+### Claude Code (no zipping required)
 
 ```bash
-# Copy a skill folder to your Claude skills directory
-cp -r 04-press-release/ ~/.claude/skills/press-release/
+# Copy the skill folder to your global Claude skills directory
+cp -r 04-press-release/ ~/.claude/skills/04-press-release/
 
-# Then invoke it in any Claude Code session
-/press-release
+# Claude auto-loads it, or invoke manually
+/04-press-release
 ```
 
 ---

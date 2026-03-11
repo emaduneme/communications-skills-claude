@@ -62,34 +62,49 @@ Decide which skill you want to install. You'll upload just that skill's folder (
 
 ## Step 3: Install the Skill in Claude
 
-### Option A: Upload via Claude.ai (recommended)
+### Option A: Upload via Claude Desktop (recommended)
 
-This is the official installation method. Skills are uploaded as a zipped folder through Claude's Skills interface.
+This is the official installation method. Claude Desktop only accepts skills as a **zipped (compressed) folder** — you must compress it before uploading.
 
-1. Find the skill folder you want (e.g., `04-press-release/`)
-2. Zip that folder:
-   - **Mac**: Right-click the folder → Compress
-   - **Windows**: Right-click the folder → Send to → Compressed (zipped) folder
-3. Open Claude Desktop
-4. Go to **Customize**
-5. Select **Skills**, then click the **+** button to add a new skill
-6. Upload the `.zip` file you just made
-7. The skill will appear in your skills list — toggle it on
-8. Start a new conversation — Claude will now use the skill automatically when relevant
+**Step 1: Compress the skill folder**
 
-> Skills have moved to **Customize**. Head to the Customize page to manage your skills and connectors.
+Find the skill folder you want (e.g., `04-press-release/`) and zip it:
+
+- **Mac**: Right-click the folder → **Compress "04-press-release"**
+  *(Shortcut: select the folder, then Ctrl+click → Compress)*
+- **Windows 11**: Right-click the folder → **Compress to ZIP file**
+- **Windows 10**: Right-click the folder → **Send to** → **Compressed (zipped) folder**
+
+You should now have a file called `04-press-release.zip` (or similar). That's what you'll upload.
+
+**Step 2: Upload to Claude Desktop**
+
+1. Open Claude Desktop
+2. Go to **Customize**
+3. Select **Skills**, then click the **+** button
+4. When prompted, choose **Upload Skill** (not "Create new skill")
+5. Select the `.zip` file you just made
+6. The skill will appear in your skills list — toggle it on
+7. Start a new conversation — Claude will now use the skill automatically when relevant
 
 > You can upload all 8 skills individually and toggle them on or off as needed.
 
 ### Option B: Claude Code (developer tool)
 
-```bash
-# Place the skill folder in your Claude skills directory
-cp -r 04-press-release/ ~/.claude/skills/
+Skills in Claude Code are placed as plain folders — **no zipping required**.
 
-# In any Claude Code session, invoke it
+```bash
+# Copy the skill folder into your global Claude skills directory
+cp -r 04-press-release/ ~/.claude/skills/04-press-release/
+```
+
+Once placed, Claude Code auto-loads the skill based on context. You can also invoke it manually:
+
+```
 /04-press-release
 ```
+
+> For project-specific skills (only active in one project), place the folder in `.claude/skills/` inside your project directory instead.
 
 ### Option C: Project Instructions (manual, no upload required)
 
