@@ -13,6 +13,5 @@ tasks/
 .DS_Store
 **/.DS_Store
 
-# Anthropic guide PDF — not redistributable; download from Anthropic documentation
-The-Complete-Guide-to-Building-Skill-for-Claude.pdf
+# Anthropic guide TXT extract (redundant with PDF)
 The-Complete-Guide-to-Building-Skill-for-Claude.txt

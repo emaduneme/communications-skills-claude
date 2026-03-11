@@ -2,6 +2,8 @@
 
 No technical experience required.
 
+> **Want to understand how skills work under the hood?** Read [The Complete Guide to Building Skills for Claude](The-Complete-Guide-to-Building-Skill-for-Claude.pdf) — Anthropic's official guide included in this repo.
+
 ---
 
 ## Before You Start
