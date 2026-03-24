@@ -1,7 +1,11 @@
 ---
-name: 05-content-calendar
+name: content-calendar
 description: Build content strategies, editorial calendars, and social media plans for organizations, personal brands, and academic departments. Use this skill when the user asks to plan content, create a posting schedule, build an editorial calendar, develop a content strategy, organize social media posts, or plan a content pipeline. Also trigger when the user mentions content pillars, posting frequency, platform strategy, content mix, audience engagement planning, or newsletter scheduling. Handles multi-platform strategies across LinkedIn, X/Twitter, Instagram, TikTok, YouTube, newsletters, blogs, and podcasts. Outputs structured calendars as spreadsheets, markdown documents, or interactive artifacts.
 license: MIT
+author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
+compatibility:
+  - Claude.ai
+  - Claude Code
 metadata:
   version: 1.0.0
 ---

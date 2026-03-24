@@ -1,7 +1,11 @@
 ---
-name: 06-brand-voice
+name: brand-voice
 description: Create brand voice guidelines, style guides, and tone documentation for organizations, departments, publications, and personal brands. Use this skill when the user asks to define a brand voice, create style guidelines, document tone and messaging standards, build a writing style guide, or establish communication standards for a team. Also trigger when the user mentions brand identity, messaging framework, voice and tone documentation, editorial standards, or asks how their brand should "sound." Handles everything from one-page voice summaries to comprehensive multi-section style guides. Works for corporate brands, academic departments, nonprofits, media outlets, and personal brands.
 license: MIT
+author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
+compatibility:
+  - Claude.ai
+  - Claude Code
 metadata:
   version: 1.0.0
 ---

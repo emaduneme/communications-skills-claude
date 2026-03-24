@@ -1,7 +1,11 @@
 ---
-name: 08-internal-comms
+name: internal-comms
 description: Draft internal communications including organizational announcements, change management messages, employee updates, departmental memos, town hall talking points, and leadership communications. Use this skill when the user needs to communicate change within an organization, write an internal announcement, draft a memo to staff or faculty, prepare talking points for a leadership meeting, or write any message intended for an internal audience. Also trigger when the user mentions change management, staff morale, organizational transitions, internal alignment, or employee engagement messaging.
 license: MIT
+author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
+compatibility:
+  - Claude.ai
+  - Claude Code
 metadata:
   version: 1.0.0
 ---
