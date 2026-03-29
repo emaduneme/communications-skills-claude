@@ -1,7 +1,11 @@
 ---
-name: 03-email-drafting
+name: email-drafting
 description: Draft professional emails across academic, administrative, networking, and career contexts. Use this skill whenever the user asks to write, draft, compose, or edit an email, Slack message, or professional message of any kind. Also trigger when the user describes a communication situation and needs help with wording, tone, or structure. Covers contexts including job applications, committee correspondence, collaboration requests, conference invitations, student communication, departmental updates, and stakeholder engagement. Adapts tone from formal academic to warm professional based on context and relationship.
 license: MIT
+author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
+compatibility:
+  - Claude.ai
+  - Claude Code
 metadata:
   version: 1.0.0
 ---

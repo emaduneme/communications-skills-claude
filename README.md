@@ -6,7 +6,7 @@ A collection of 8 Claude skills for communications researchers, PR professionals
 
 **Works with Claude Desktop and Claude Code.**
 
-> **First time here?** Read [GUIDE-FOR-DUMMIES.md](GUIDE-FOR-DUMMIES.md) — it explains everything from scratch in plain English.
+> **First time here?** Read [HOLD-MY-HAND-GUIDE.md](HOLD-MY-HAND-GUIDE.md) — it explains everything from scratch in plain English.
 
 These skills were built following Anthropic's official methodology. If you want to build your own skills or understand how these are structured, refer to the Skills and Best Practices guides in the Anthropic developer documentation.
 

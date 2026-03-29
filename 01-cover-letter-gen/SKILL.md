@@ -1,7 +1,11 @@
 ---
-name: 01-cover-letter-gen
+name: cover-letter-gen
 description: Generate tailored, professional cover letters from a job posting and the user's CV/resume. Use this skill whenever the user mentions cover letters, job applications, applying for a position, customizing application materials, or asks to adjust/tailor a letter for a role. Also trigger when the user pastes a job description and mentions wanting to apply, or references their resume/CV in the context of a job opportunity. Handles academic, industry, and hybrid roles across communications, UX research, journalism, and related fields.
 license: MIT
+author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
+compatibility:
+  - Claude.ai
+  - Claude Code
 metadata:
   version: 1.0.0
 ---

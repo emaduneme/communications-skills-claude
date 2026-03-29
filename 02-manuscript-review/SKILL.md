@@ -1,7 +1,11 @@
 ---
-name: 02-manuscript-review
+name: manuscript-review
 description: Systematic academic manuscript review for inconsistencies, citation errors, statistical reporting problems, and style mismatches. Use this skill whenever the user asks to review, proofread, check, or audit an academic paper, manuscript, journal submission, or dissertation chapter. Also trigger when the user mentions finding errors in a draft, verifying citations, checking APA formatting, or preparing a manuscript for resubmission. Covers experimental research, quantitative analysis, and social science writing conventions. Works alongside the academic-research skill but focuses specifically on error detection and correction rather than content generation.
 license: MIT
+author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
+compatibility:
+  - Claude.ai
+  - Claude Code
 metadata:
   version: 1.0.0
 ---

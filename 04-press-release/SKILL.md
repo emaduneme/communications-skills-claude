@@ -1,7 +1,11 @@
 ---
-name: 04-press-release
+name: press-release
 description: Write professional press releases and crisis communications for organizations, nonprofits, universities, and businesses. Use this skill when the user needs to draft a press release, media advisory, crisis statement, public response, organizational announcement, product launch announcement, event announcement, or any formal media-facing communication. Also trigger when the user mentions PR, public relations, media statement, crisis response, reputation management, or stakeholder communication. Handles both proactive announcements and reactive crisis responses across sectors including higher education, media, tech, nonprofit, and corporate.
 license: MIT
+author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
+compatibility:
+  - Claude.ai
+  - Claude Code
 metadata:
   version: 1.0.0
 ---

@@ -1,7 +1,11 @@
 ---
-name: 07-media-pitch
-description: Craft targeted media pitches, op-ed pitches, and PR outreach for journalists, editors, and podcast hosts. Use this skill when the user wants to pitch a story, get press coverage, write an op-ed proposal, reach out to a journalist, offer expert commentary, or request a podcast booking. Also trigger when the user mentions media relations, earned media, press outreach, or thought leadership placement.
+name: media-pitch
+description: Craft targeted media pitches, op-ed pitches, and PR outreach for journalists, editors, and podcast hosts. Use this skill when the user wants to pitch a story, get press coverage, write an op-ed proposal, reach out to a journalist, offer expert commentary, request a podcast booking, write a news release, offer themselves as an expert source, draft a media advisory, send an interview request, or propose a story idea. Also trigger when the user mentions media relations, earned media, press outreach, thought leadership placement, or wants to establish themselves as a go-to source for reporters.
 license: MIT
+author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
+compatibility:
+  - Claude.ai
+  - Claude Code
 metadata:
   version: 1.0.0
 ---
