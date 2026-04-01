@@ -7,7 +7,7 @@ compatibility:
   - Claude.ai
   - Claude Code
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Content Strategy & Editorial Calendar
@@ -109,6 +109,16 @@ Each calendar entry should include:
 **Interactive artifact (.jsx)**: Best for visual planning
 - Calendar view with drag-and-drop
 - Color-coded by pillar or platform
+- **Required:** Always include at least one fully written example content brief in the text output alongside the artifact, so the user can verify prompt quality and use it as a writing guide for remaining entries.
+
+## Output Checklist
+
+Before presenting any calendar, verify:
+
+1. **Posting frequency matches time budget** — cross-check total weekly posts against the user's stated hours. If over, trim before presenting.
+2. **Every pillar tied to user's actual expertise** — no generic topics the user can't speak to authentically.
+3. **At least one fully written example brief included** — if producing an artifact, always include one complete example entry (with full prompt text, format, CTA) in the text output alongside it.
+4. **No em dashes** — replace with commas, semicolons, or rewritten sentences.
 
 ## Content Prompt Examples
 
@@ -120,13 +130,15 @@ Good prompts are specific enough to reduce blank-page paralysis but flexible eno
 **Weak**: "Share research"
 **Strong**: "Take one finding from your latest paper and explain it in 3 sentences a journalist could understand. End with 'Why this matters for your newsroom.'"
 
-## Clarifying Questions
+## Before You Begin
 
-1. What platforms are you currently active on, and which do you want to add?
-2. How much time per week can you realistically spend on content creation?
-3. Do you have existing content (lectures, papers, talks) that can be repurposed?
-4. What's the primary goal: visibility, community building, lead generation, or thought leadership?
-5. Is this for a personal brand, an organization, or a department?
+Ask these questions before building any calendar. Do not begin Phase 1 until you have answers to 1, 2, and 4.
+
+1. **Platforms**: What platforms are you currently active on, and which do you want to add?
+2. **Time budget**: How much time per week can you realistically spend on content creation?
+3. **Existing content**: Do you have existing content (lectures, papers, talks) that can be repurposed?
+4. **Goal**: What's the primary goal — visibility, community building, lead generation, or thought leadership?
+5. **Brand type**: Is this for a personal brand, an organization, or a department?
 
 ## Hard Rules
 
