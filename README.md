@@ -38,7 +38,7 @@ These work out of the box with no setup required. Skills 4, 6, 7, and 8 also inc
 
 ### Journalism Skills — Ready To Use Immediately
 
-Built for reporters, journalism students, and fact-checkers. Each skill includes Python-based scripts for transcription, source aggregation, and verification workflows.
+Built for reporters, journalism students, and fact-checkers. No setup required. Optional standalone Python CLI tools (Whisper transcription, RSS monitoring, story tracker, verification log) are available separately in [`tools/`](tools/) for technical users — the skills work without them.
 
 | Skill | Folder | What It Does |
 |-------|--------|-------------|
