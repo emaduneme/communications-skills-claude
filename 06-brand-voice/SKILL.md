@@ -7,7 +7,7 @@ compatibility:
   - Claude.ai
   - Claude Code
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Brand Voice & Style Guide Generator
@@ -139,13 +139,24 @@ Include ready-to-use templates for the most common communication types:
 **Slide deck (.pptx)**: Presentation format for team training
 **Interactive artifact (.jsx)**: Searchable, tabbed reference tool
 
-## Clarifying Questions
+## Before You Begin
 
-1. Does the organization have any existing brand guidelines or documentation?
-2. Can you share 3-5 examples of communications you think nail the right tone?
-3. Can you share 2-3 examples of communications that felt off-brand?
-4. Who will use this guide? (Writers, social media managers, all staff, external partners)
-5. What's the scope: full style guide or voice-only documentation?
+Ask these questions before building any voice guide. Do not begin Phase 1 until you have answers to questions 1, 4, and 5.
+
+1. **Existing guidelines**: Does the organization have any existing brand guidelines or documentation? (If yes, request them before proceeding — the goal is to extend or clarify, not replace.)
+2. **Tone examples (on-brand)**: Can you share 3-5 examples of communications you think nail the right tone?
+3. **Tone examples (off-brand)**: Can you share 2-3 examples of communications that felt wrong?
+4. **Guide users**: Who will use this guide? (Writers, social media managers, all staff, external partners)
+5. **Scope**: Full style guide (all 7 sections) or voice-only documentation (sections 1-4)?
+
+## Output Checklist
+
+Before presenting any voice guide, verify:
+
+1. **Every voice attribute has a "but not" qualifier** — no bare adjectives.
+2. **At least one DO/DON'T pair per voice attribute** — with full quoted example sentences, not descriptions.
+3. **Tone table includes a crisis-adjacent context** — at minimum "responding to criticism" or "delivering difficult news."
+4. **No em dashes anywhere in the output** — this includes voice overview prose, tone table examples, DO/DON'T examples, platform guidelines, and templates. Replace every em dash with a comma, semicolon, colon, or rewritten sentence before presenting. Writers using your DO examples as models will reproduce whatever punctuation you use — make sure it is correct.
 
 ## Hard Rules
 

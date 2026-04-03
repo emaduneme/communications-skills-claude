@@ -7,7 +7,7 @@ compatibility:
   - Claude.ai
   - Claude Code
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Manuscript Review
@@ -24,11 +24,31 @@ This skill performs systematic, multi-pass review of academic manuscripts to cat
 - User uploads a manuscript and asks for inconsistency checking
 - User mentions "desk rejection" or "reviewer feedback" in context of fixing a paper
 
+## Before You Begin
+
+Ask the user these questions before starting any review:
+
+1. **Journal target**: What journal or style guide applies? (APA 7th, APA 6th, Chicago, other?)
+2. **Submission stage**: First submission, revision/resubmission, or pre-submission check?
+3. **Known concerns**: Are there specific sections or issues you're already worried about?
+4. **Scope**: Full manuscript or a specific section (e.g., just Results, just References)?
+
+Do not begin reviewing until you have at least answers to questions 1 and 2.
+
+---
+
 ## Review Process
 
-### Pass 1: Structural Consistency
+### Pass 1: Structural and Conceptual Consistency
 
-Scan the entire manuscript for internal contradictions:
+Scan the entire manuscript for both internal contradictions and conceptual coherence issues:
+
+**Conceptual and terminological consistency** (check these first — highest desk-rejection risk):
+- **Key constructs**: Are the same constructs labeled the same way throughout? Flag any case where the same variable, scale, or concept is called something different across sections (e.g., "political engagement" in the abstract vs. "civic engagement" in the results)
+- **Population/sample descriptors**: Does the abstract, methods, and discussion describe the same population? Flag mismatches (e.g., "young adults" vs. "undergraduate students")
+- **Study framing**: Does the introduction's research question align with what was actually measured and reported?
+
+**Numeric and structural consistency**:
 - **Abstract vs. body**: Do sample sizes, key findings, and conclusions match?
 - **Hypotheses vs. results**: Are all stated hypotheses addressed? Do labels (H1, H2a, H2b) remain consistent throughout?
 - **Methods vs. results**: Do the analyses described in Methods match what's reported in Results?

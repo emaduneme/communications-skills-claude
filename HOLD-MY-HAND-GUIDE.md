@@ -22,13 +22,15 @@ Without a skill, you'd have to explain your needs from scratch every conversatio
 
 With a skill, Claude already knows all of that. You just say *"write a press release for our grant announcement"* and it does the right thing.
 
-The 8 skills in this collection are those instruction sets — professionally written, ready to paste in.
+The 12 skills in this collection are those instruction sets — professionally written, ready to paste in.
 
 ---
 
 ## Which Skills Work Right Away
 
 Some skills need no setup at all. Start with one of these:
+
+**Communications & PR:**
 
 | Skill | Folder | Good for |
 |-------|--------|----------|
@@ -37,6 +39,15 @@ Some skills need no setup at all. Start with one of these:
 | Brand Voice Guide | `06-brand-voice/` | Defining how your org should sound in writing |
 | Media Pitch | `07-media-pitch/` | Getting press coverage, pitching op-eds, booking podcasts |
 | Internal Communications | `08-internal-comms/` | Staff memos, change announcements, leadership messages |
+
+**Journalism:**
+
+| Skill | Folder | Good for |
+|-------|--------|----------|
+| Story Pitch Planner | `story-pitch-planner/` | Developing story angles, checking newsworthiness, tracking pitches |
+| Information Gathering | `information-gathering/` | Researching a beat, finding sources, pulling public records |
+| Field Reporting & Interviewing | `field-reporting-interviewing/` | Preparing interview questions, organizing notes, transcription |
+| Verification & Fact-Checking | `verification-fact-checking/` | Checking claims, tracing statistics, building a verification trail |
 
 The other three (Cover Letter, Manuscript Review, Email Drafting) work better when you add your own writing samples — see [Personalizing Skills](#personalizing-skills-1-3) below.
 
@@ -133,6 +144,10 @@ Once the skill is loaded, just describe what you need in plain language. Claude 
 | Brand Voice | "Help me define the brand voice for our nonprofit. We focus on environmental health in low-income communities." |
 | Internal Comms | "I need to tell my team that we're restructuring two departments and one team lead is being reassigned." |
 | Content Calendar | "Build me a month of LinkedIn content for a journalism professor who studies misinformation." |
+| Story Pitch Planner | "I want to pitch a story about how local hospitals are handling AI triage tools. Help me develop the angle." |
+| Information Gathering | "I'm reporting on water quality in rural counties. Help me find experts, public records, and recent coverage." |
+| Field Reporting & Interviewing | "I'm interviewing the city's public health director tomorrow about the opioid response. Help me prep questions." |
+| Verification & Fact-Checking | "A source says car crashes are the leading cause of death for teens. Verify this claim before I publish." |
 
 Claude will never fabricate details — if it needs something it doesn't have, it will ask.
 

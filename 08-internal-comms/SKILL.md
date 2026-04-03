@@ -7,7 +7,7 @@ compatibility:
   - Claude.ai
   - Claude Code
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Internal Communications & Change Messaging
@@ -192,14 +192,27 @@ For significant changes, consider separate communications for:
 - **Managers**: Talking points for team conversations, FAQs for common questions
 - **External stakeholders**: If needed, a coordinated external message
 
-## Clarifying Questions
+## Before You Begin
 
-1. What's the change or news you need to communicate?
-2. Who is the audience? (All staff, specific department, leadership team)
-3. What's the emotional temperature? (Will people be anxious, excited, confused, angry?)
-4. Are there things you can't disclose? (Legal constraints, pending decisions)
-5. What's the timeline: when is this going out, and when do people need to act?
-6. Who is the sender? (CEO, department head, HR, direct manager)
+Ask these questions before drafting any internal communication. Do not begin drafting until you have answers to questions 1, 2, and 3.
+
+1. **The change**: What's the change or news you need to communicate? Include what is known and what is not yet decided.
+2. **The audience**: Who is receiving this message? If the audience includes mixed-status employees (e.g., tenured and adjunct faculty, or permanent and contract staff), flag whether a single message is appropriate or whether separate communications are needed.
+3. **Emotional temperature**: Will people be anxious, excited, confused, or angry? Have there been rumors already, or will this land as a surprise?
+4. **Disclosure constraints**: Are there things you cannot say yet? (Legal constraints, pending decisions, HR reviews) Note the boundaries so the draft doesn't imply more certainty than exists.
+5. **Timeline**: When does this go out, and when do people need to act?
+6. **Sender**: Who is this from? (CEO, department head, HR, direct manager) Faculty and staff read the sender line carefully.
+
+## Output Checklist
+
+Before presenting any internal communication, verify:
+
+1. **Change is named in the first sentence** — do not build up to it.
+2. **No passive voice obscuring responsibility** — "We decided" not "it was decided," "I am communicating" not "faculty are being informed."
+3. **Specific contact named for questions** — not "feel free to reach out to HR" but a named person and channel.
+4. **Most anxious reader check** — read the draft from the perspective of the most at-risk person in the audience. Does it answer their fears honestly, or does it leave them to fill in gaps with worst-case assumptions?
+5. **Audience segmentation considered** — if the audience includes mixed-status employees, confirm whether one message is appropriate or whether separate communications are needed.
+6. **No em dashes anywhere** — subject line or body. Replace with commas, semicolons, or rewritten sentences.
 
 ## Hard Rules
 

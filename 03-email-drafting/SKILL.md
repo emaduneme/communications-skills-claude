@@ -7,7 +7,7 @@ compatibility:
   - Claude.ai
   - Claude Code
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Professional Email Drafting
@@ -145,7 +145,13 @@ Before drafting, ask if not obvious from context:
 
 ## Output
 
-Present the email cleanly. If the user wants to send it directly, offer to format for the message_compose tool with appropriate variants.
+Before presenting any draft, run this checklist:
+
+1. **Subject line present?** Every email must have one. Format: `[Action/Topic] — [Context or Deadline]`. Missing subject line = incomplete output.
+2. **Length matches tone table?** Recheck the Tone Calibration table for the detected relationship. For chair/dean: max 5 sentences. Trim before presenting if over.
+3. **No filler opener?** Remove "I hope you're doing well" unless the relationship and context clearly call for a warm re-entry.
+
+Then present the email cleanly. If the user wants to send it directly, offer to format for the message_compose tool with appropriate variants.
 
 ## Reference Files
 

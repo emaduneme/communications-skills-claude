@@ -2,7 +2,7 @@
 
 # Communications Professional Skills for Claude
 
-A collection of 8 Claude skills for communications researchers, PR professionals, journalists, and academic communicators. Each skill is a ready-to-use prompt template that extends Claude with specialized expertise for your communication workflows.
+A collection of 12 Claude skills for communications researchers, PR professionals, journalists, and academic communicators. Each skill is a ready-to-use prompt template that extends Claude with specialized expertise for your communication workflows.
 
 **Works with Claude Desktop and Claude Code.**
 
@@ -35,6 +35,17 @@ These work out of the box with no setup required. Skills 4, 6, 7, and 8 also inc
 | 6 | Brand Voice Guide | [`06-brand-voice/`](06-brand-voice/) | Brand voice documentation with "but not" qualifiers, do/don't examples, tone spectrums, and platform-specific guidelines. | Voice discovery worksheet + one-pager template |
 | 7 | Media Pitch | [`07-media-pitch/`](07-media-pitch/) | Targeted pitches for journalists, editors, and podcast hosts. Covers research translation, op-eds, and expert sourcing. | Add your media contacts + past successful pitches |
 | 8 | Internal Communications | [`08-internal-comms/`](08-internal-comms/) | Organizational announcements, change management messages, and difficult news communications. | FAQ builder, talking points + comms plan templates |
+
+### Journalism Skills — Ready To Use Immediately
+
+Built for reporters, journalism students, and fact-checkers. No setup required. Optional standalone Python CLI tools (Whisper transcription, RSS monitoring, story tracker, verification log) are available separately in [`tools/`](tools/) for technical users — the skills work without them.
+
+| Skill | Folder | What It Does |
+|-------|--------|-------------|
+| Story Pitch Planner | [`story-pitch-planner/`](story-pitch-planner/) | Develops angles, evaluates newsworthiness, checks existing coverage, and tracks active assignments to prevent duplication. |
+| Information Gathering | [`information-gathering/`](information-gathering/) | Monitors beats via RSS, aggregates coverage, builds source lists, and finds primary sources and public records. |
+| Field Reporting & Interviewing | [`field-reporting-interviewing/`](field-reporting-interviewing/) | Prepares reporters for the field: question development, source contact drafting, field checklists, and interview notes organization. Includes Whisper transcription workflow. |
+| Verification & Fact-Checking | [`verification-fact-checking/`](verification-fact-checking/) | Structured verification pipeline: decomposes claims, searches fact-check databases, traces primary sources, checks quote attribution, and builds a documented verification trail. |
 
 ---
 
@@ -69,6 +80,7 @@ cp -r 04-press-release/ ~/.claude/skills/04-press-release/
 - **Want emails that actually sound like you?** → Skill 3 (Email Drafting).
 - **Academic or researcher?** → Skill 2 (Manuscript Review) or Skill 7 (Media Pitch).
 - **Building a brand or content presence?** → Skill 6 (Brand Voice), then Skill 5 (Content Calendar).
+- **Working journalist or journalism student?** → Start with Story Pitch Planner, then add Information Gathering and Verification & Fact-Checking.
 
 ---
 

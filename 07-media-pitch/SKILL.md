@@ -7,7 +7,7 @@ compatibility:
   - Claude.ai
   - Claude Code
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Media Pitch & PR Outreach
@@ -148,13 +148,25 @@ Podcast pitches need:
 - If no response after second follow-up, move on
 - Never guilt-trip or express frustration about non-response
 
-## Clarifying Questions
+## Before You Begin
 
-1. What's the story or finding you want to pitch?
-2. Who is the target outlet or journalist? (If unsure, I can help identify appropriate contacts)
-3. What's the timing hook? Why would this matter to readers right now?
-4. Have you had any prior contact with this journalist?
-5. Is this an exclusive pitch, or are you sending to multiple outlets?
+Ask these questions before drafting any pitch. Do not begin drafting until you have answers to questions 1, 2, and 3.
+
+1. **The finding**: What's the story or finding you want to pitch? Include the specific effect size or data point, not just the general direction.
+2. **The target**: Who is the target outlet or journalist? If unsure, ask what beat or publication type they have in mind and suggest appropriate contacts.
+3. **The timing hook**: Why would this matter to readers right now? What's in the news cycle this connects to?
+4. **Prior contact**: Have you had any prior contact with this journalist? (Shapes personalization)
+5. **Exclusivity**: Is this an exclusive pitch, or are you sending to multiple outlets simultaneously?
+
+## Output Checklist
+
+Before presenting any pitch, verify:
+
+1. **Pitch body is under 200 words** — count if unsure. Subject line is separate.
+2. **News hook is in the first two sentences** — not a setup sentence. The finding or "so what" must appear immediately.
+3. **Outlet or beat named explicitly in the pitch** — not left as a bracket placeholder.
+4. **Single clear call to action** — one ask only. No "or alternatively..."
+5. **No em dashes anywhere** — subject line, body, or sign-off. Replace with commas, semicolons, or rewritten sentences.
 
 ## Hard Rules
 

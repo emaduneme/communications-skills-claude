@@ -1,5 +1,5 @@
 ---
-name: cover-letter-gen
+name: 01-cover-letter-gen
 description: Generate tailored, professional cover letters from a job posting and the user's CV/resume. Use this skill whenever the user mentions cover letters, job applications, applying for a position, customizing application materials, or asks to adjust/tailor a letter for a role. Also trigger when the user pastes a job description and mentions wanting to apply, or references their resume/CV in the context of a job opportunity. Handles academic, industry, and hybrid roles across communications, UX research, journalism, and related fields.
 license: MIT
 author: "Emmanuel Maduneme (https://www.emaduneme.com/)"
@@ -7,7 +7,7 @@ compatibility:
   - Claude.ai
   - Claude Code
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Cover Letter Generator
@@ -93,28 +93,31 @@ Apply these rules:
 - **Always ask** before making significant structural changes to the user's established template
 - If the user's qualifications don't match a requirement, either omit it or frame adjacent experience honestly. Do not stretch the truth.
 
-## Pre-Submission Checklist
+## Before You Begin
 
-Before presenting the letter, verify:
-- [ ] Role title matches the posting exactly
-- [ ] Organization name is spelled correctly
-- [ ] No experiences or publications are fabricated
-- [ ] Quantified outcomes are accurate to the CV
-- [ ] Letter is within length guidelines
-- [ ] Sign-off matches user preference
-- [ ] No em dashes (use commas, semicolons, or periods instead)
+Ask these questions before drafting any letter. Do not begin Step 1 until you have answers to questions 1 and 2.
+
+1. **Job posting**: Has the user provided the job posting? If not, ask for it before proceeding. A letter cannot be tailored without the posting.
+2. **CV/resume**: Has the user provided their CV, or is one available in `references/resume.md`? If not, ask. Do not draft from memory or assumptions.
+3. **Emphasis**: Are there specific projects, experiences, or skills you want foregrounded?
+4. **Connections**: Do you have any connection to this organization — referrals, mutual contacts, or prior interaction?
+
+## Output Checklist
+
+Before presenting any letter, verify:
+
+1. **Role title matches the posting exactly** — no paraphrasing.
+2. **Organization name is spelled correctly.**
+3. **No fabricated experiences, publications, or skills** — if a requirement isn't in the CV, it is omitted or framed as adjacent experience honestly.
+4. **Quantified outcomes are accurate to the CV** — no invented numbers.
+5. **Length is 350-500 words** — count if unsure. Trim before presenting if over.
+6. **Sign-off is "Warmest Regards,"** unless the user has specified otherwise.
+7. **No em dashes anywhere** — replace with commas, semicolons, or rewritten sentences.
+8. **Notes and commentary are separate from the letter body** — do not embed caveats inside the letter itself.
 
 ## Output Format
 
 Present the letter as a clean markdown document. If the user wants a .docx, use the docx skill to format it professionally.
-
-## Clarifying Questions to Ask
-
-When the user provides a job posting, ask:
-1. Is this the exact job title you want to use in the letter?
-2. Any specific projects or experiences you want me to emphasize?
-3. Have you worked with any technologies or methods they mention that aren't on your CV?
-4. Do you have any connection to this organization (referrals, mutual contacts, prior interaction)?
 
 ## Reference Files
 

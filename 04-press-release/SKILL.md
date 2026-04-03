@@ -7,7 +7,7 @@ compatibility:
   - Claude.ai
   - Claude Code
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Press Release & Crisis Communications
@@ -110,7 +110,7 @@ Contact for media inquiries:
 ## Writing Rules
 
 ### For All Press Releases
-1. **AP Style**: Follow AP style for dates, numbers, titles, and abbreviations
+1. **AP Style**: Follow AP style for dates, numbers, titles, and abbreviations. Search web for resources like this for guidance: https://owl.purdue.edu/owl/subject_specific_writing/journalism_and_journalistic_writing/ap_style.html
 2. **Inverted pyramid**: Most important information first
 3. **Active voice**: "The university launched..." not "A program was launched by..."
 4. **No jargon**: Write for a general audience unless targeting trade media
@@ -147,15 +147,18 @@ Contact for media inquiries:
 - [ ] Organization boilerplate is current and accurate
 - [ ] Contact information is complete and correct
 - [ ] All facts and figures are verified
+- [ ] No em dashes — replace with commas, semicolons, or rewritten sentences
 - [ ] For crisis: legal review recommended before distribution
 
-## Clarifying Questions
+## Before You Begin
 
-1. What is the primary audience? (General public, trade media, stakeholders, internal)
-2. Is there an embargo date, or is this for immediate release?
-3. Who should be quoted, and what is their exact title?
-4. For crisis: What has been confirmed vs. what is still under investigation?
-5. What is the desired call to action or next step for the reader?
+Ask these questions before drafting. Do not begin until you have answers to 1 and 2.
+
+1. **Release type**: Is this a standard announcement, crisis response, media advisory, or position statement?
+2. **Embargo status**: For immediate release, or embargoed until a specific date/time?
+3. **Quotes**: Are quotes pre-approved by the speaker, or should placeholders be flagged clearly?
+4. **Primary audience**: General public, trade media, specific outlets, or internal stakeholders?
+5. **Call to action**: What should the reader do or know after reading?
 
 ## Reference Files
 
